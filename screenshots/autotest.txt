@@ -1,0 +1,52 @@
+﻿=== Granny13 autotest ===
+PASS  two levels
+PASS  containers   [10]
+PASS  three quest items placed   [3]
+PASS  all containers reachable   [0]
+PASS  front door reachable
+PASS  attic hatch reachable
+PASS  attic chest reachable
+PASS  play state after start
+PASS  inventory empty at start
+PASS  day counters   [1/5]
+PASS  starting traps normal   [3]
+PASS  walk north   [dy=-1,23]
+PASS  wall stops player   [x=13,25]
+PASS  door targeted   [kind=1 prompt=Открыть дверь]
+PASS  door toggles
+PASS  container targeted   [prompt=Обыскать: Комод в спальне]
+PASS  container searched
+PASS  item taken   [Монтировка]
+PASS  hide targeted   [prompt=Спрятаться: Шкаф в спальне]
+PASS  hidden in closet
+PASS  left closet
+PASS  trap triggers
+PASS  trap hurts
+PASS  trap makes noise
+PASS  cat wakes near player
+PASS  fed cat stays calm
+PASS  granny investigates noise   [state=1]
+PASS  granny catches player   [screen=5]
+PASS  day advanced   [2]
+PASS  respawned   [screen=3]
+PASS  front door targeted   [prompt=Входная дверь  (3/3 замка)]
+PASS  escape wins   [screen=6]
+PASS  game over after last day   [screen=7]
+PASS  sfx generated
+PASS  meow peak sane   [0,65]
+PASS  path to kitchen   [30]
+PASS  granny sees and chases   [state=2]
+PASS  hiding keeps player safe   [screen=3]
+PASS  granny climbs to the attic   [lvl=1]
+PASS  cat alerts when chest is looted
+PASS  padlock opens with key   [locks=1]
+PASS  deadbolt opens with crowbar   [locks=2]
+PASS  code lock opens with note   [locks=3]
+PASS  trap grid marked
+PASS  trap decal visible   [5800 px, hits=5800]
+      debug trapGridNull=False at(15,15)=2 hits2=0
+PASS  render under 24ms/frame   [11,9 ms]
+      world=7,8ms  ui=4,0ms
+      floor=2,2 walls=0,3 sprites=0,3 post=2,5
+
+PASSED: 46   FAILED: 0
